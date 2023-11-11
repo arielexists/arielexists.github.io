@@ -24,8 +24,7 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	text-shadow: 1px 1px 2px /*#341915*/ black;
-}
+	text-shadow: 1px 1px 2px /*#341915*/ black;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -560,13 +559,12 @@ input, select, textarea {
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
-			opacity: 1;
 		}
 
 		#header p {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
-			opacity: .80;
+			opacity: 0.80;
 		}
 
 		#header nav {
