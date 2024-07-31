@@ -1108,10 +1108,10 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-		-moz-animation: bg 360s linear infinite;
-		-webkit-animation: bg 360s linear infinite;
-		-ms-animation: bg 360s linear infinite;
-		animation: bg 360s linear infinite;
+		-moz-animation: bg 2160s linear infinite;
+		-webkit-animation: bg 2160s linear infinite;
+		-ms-animation: bg 2160s linear infinite;
+		animation: bg 2160s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -1161,10 +1161,10 @@ input, select, textarea {
 		}
 
 		#bg:after {
-			-moz-animation: bg 360s linear infinite;
-			-webkit-animation: bg 360s linear infinite;
-			-ms-animation: bg 360s linear infinite;
-			animation: bg 360s linear infinite;
+			-moz-animation: bg 2160s linear infinite;
+			-webkit-animation: bg 2160s linear infinite;
+			-ms-animation: bg 2160s linear infinite;
+			animation: bg 2160s linear infinite;
 			-moz-backface-visibility: hidden;
 			-webkit-backface-visibility: hidden;
 			-ms-backface-visibility: hidden;
