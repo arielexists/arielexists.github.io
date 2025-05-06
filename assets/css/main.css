@@ -1161,7 +1161,7 @@ input, select, textarea {
 		}
 
 		#bg:after {
-			-moz-animation: bg 2160s linear infinite;
+			/*-moz-animation: bg 2160s linear infinite;
 			-webkit-animation: bg 2160s linear infinite;
 			-ms-animation: bg 2160s linear infinite;
 			animation: bg 2160s linear infinite;
@@ -1181,18 +1181,27 @@ input, select, textarea {
 			opacity: 1;
 			position: fixed;
 			top: 0;
-			z-index: 1;
+			z-index: 1;*/
 		}
 
 		body.is-article-visible #bg:after {
-			-moz-transform: scale(1.0825);
+			/*-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);
 			-ms-transform: scale(1.0825);
-			transform: scale(1.0825);
+			transform: scale(1.0825);*/
 			-moz-filter: blur(0.2rem);
 			-webkit-filter: blur(0.2rem);
 			-ms-filter: blur(0.2rem);
 			filter: blur(0.2rem);
+
+			background: #ffe0e8 url("../../images/bg.jpg") top left;
+			background-repeat: repeat-x;
+			height: 100%;
+			left: 0;
+			opacity: 1;
+			position: fixed;
+			top: 0;
+			z-index: 1;
 		}
 
 		body.is-preload #bg:before {
